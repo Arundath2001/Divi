@@ -8,14 +8,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    slug: "fintech-app-redesign",
-    title: "Fintech App Redesign",
-    tags: ["UX Research", "UI Design", "Prototyping"],
-    image: "/cyber.jpg",
-    shortDescription: "A complete overhaul of a mobile banking application focusing on simplifying the transaction flow and improving accessibility.",
-    longDescription: "This case study details the process of redesigning a legacy mobile banking application. The goal was to reduce the friction in primary user journeys such as transferring money and checking balances. By conducting extensive user research and iterative prototyping, we managed to increase user satisfaction scores by 40% and reduce the time to complete a transaction by half."
-  },
+
   {
     slug: "K-RERA Website",
     title: "K-RERA Website",
@@ -55,5 +48,13 @@ export const projects: Project[] = [
     image: "/syed.jpg",
     shortDescription: "Redesigning the institute's digital presence to create a modern, accessible, and engaging experience for students, parents, educators, and prospective learners.",
     longDescription: "A minimalist and impactful portfolio design created to showcase creative work. The design language emphasizes typography, white space, and subtle micro-interactions to create a premium feel."
-  }
+  },
+  {
+    slug: "fintech-app-redesign",
+    title: "Fintech App Redesign",
+    tags: ["UX Research", "UI Design", "Prototyping"],
+    image: "/cyber.jpg",
+    shortDescription: "A complete overhaul of a mobile banking application focusing on simplifying the transaction flow and improving accessibility.",
+    longDescription: "This case study details the process of redesigning a legacy mobile banking application. The goal was to reduce the friction in primary user journeys such as transferring money and checking balances. By conducting extensive user research and iterative prototyping, we managed to increase user satisfaction scores by 40% and reduce the time to complete a transaction by half."
+  },
 ];
