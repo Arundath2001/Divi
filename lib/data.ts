@@ -416,11 +416,60 @@ export const projects: Project[] = [
     outcome: "The redesigned website provides a clean, modern, and intuitive experience that makes it easier for users to discover academic programs, access important information, and stay informed about institute activities. Through improved navigation, organized content, and responsive layouts, the design enhances usability while strengthening the institute's online presence."
   },
   {
-    slug: "fintech-app-redesign",
-    title: "Fintech App Redesign",
-    tags: ["UX Research", "UI Design", "Prototyping"],
-    image: "/cyber.jpg",
-    shortDescription: "A complete overhaul of a mobile banking application focusing on simplifying the transaction flow and improving accessibility.",
-    longDescription: "This case study details the process of redesigning a legacy mobile banking application. The goal was to reduce the friction in primary user journeys such as transferring money and checking balances. By conducting extensive user research and iterative prototyping, we managed to increase user satisfaction scores by 40% and reduce the time to complete a transaction by half."
-  },
+    slug: "livable-interiors",
+    title: "Livable Interiors",
+    tags: ["Web Design", "UI/UX", "Interior Design"],
+    image: "/livable.png",
+    shortDescription: "Designing a modern digital platform that showcases interior design services, inspires potential clients, and simplifies project inquiries.",
+    longDescription: "A minimalist and impactful portfolio design created to showcase creative work. The design language emphasizes typography, white space, and subtle micro-interactions to create a premium feel.",
+    snapshot: {
+      role: "UI/UX Designer",
+      projectType: "Interior Design Website",
+      platform: "Responsive Web",
+      duration: "3 Months",
+      tools: "Figma",
+      client: "Livable Interior",
+      responsibilities: "Requirement Analysis, Wireframing, High-Fidelity UI Design",
+      deliverables: "Responsive Website Design, Design System, UI Components"
+    },
+    overview: "Livable Interior is an interior design company specializing in creating functional and aesthetically pleasing residential and commercial spaces. The website serves as a digital portfolio where potential customers can explore the company's services, browse completed projects, and connect with the team for design consultations.\n\nThe objective of this project was to design a modern, visually engaging, and responsive website that effectively showcases the brand's expertise while making it easy for users to discover services, view project portfolios, and submit inquiries.",
+    problemStatement: {
+      text: "The project focused on creating a visually compelling experience while ensuring users could easily explore the company's services and portfolio.\n\nKey challenges included:",
+      points: [
+        "Showcasing Projects: Present completed interior projects in a visually engaging and easy-to-browse format.",
+        "Organizing Content: Structure services, project categories, and company information into a clear and intuitive layout.",
+        "Encouraging Inquiries: Design a seamless user journey that encourages visitors to request consultations or contact the team.",
+        "Reflecting Brand Identity: Create a modern and elegant interface that aligns with the company's design philosophy.",
+        "Ensuring Accessibility: Deliver a responsive and accessible experience across desktop, tablet, and mobile devices."
+      ]
+    },
+    goals: [
+      "Showcase interior design projects through an engaging portfolio.",
+      "Improve navigation and information architecture.",
+      "Simplify access to services and consultation requests.",
+      "Create a consistent and visually appealing design system.",
+      "Deliver a responsive experience across multiple devices."
+    ],
+    roleDetails: {
+      text: "As the UI/UX Designer, I was responsible for:",
+      points: [
+        "Organizing content and planning the website structure.",
+        "Creating low-fidelity wireframes.",
+        "Designing high-fidelity user interfaces.",
+        "Developing reusable UI components and maintaining design consistency."
+      ]
+    },
+    targetUsers: [
+      "Homeowners: Individuals looking for interior design solutions for their homes.",
+      "Business Owners: Clients seeking interior design services for commercial spaces.",
+      "Prospective Clients: Visitors exploring the company's portfolio, services, and design expertise.",
+      "Architects & Partners: Professionals interested in collaboration opportunities.",
+      "General Visitors: Users learning about the company and its completed projects."
+    ],
+    keyFeatures: [
+      "Home",
+      "Services Page"
+    ],
+    outcome: "The final website delivers a modern and immersive browsing experience that highlights Livable Interior's expertise through a clean visual hierarchy, organized content, and an engaging project showcase. The responsive design enables visitors to explore services, browse completed projects, and connect with the company seamlessly across all devices."
+  }
 ];
